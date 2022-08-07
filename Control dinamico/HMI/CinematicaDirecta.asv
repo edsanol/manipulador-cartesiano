@@ -1,0 +1,16 @@
+% r = L4*sind(T4)+L5*sind(T4+T5)+L6*sind(T4+T5+T6);
+% Z = d1+r*cosd(T5)
+% y = d2+r*sind(T3)
+% x = -L5-L4*cosd(T4)-L5*cosd(T4+T5)-L6*cosd(T4+T5+T6)
+
+D1 = 0;
+D2 = 0;
+T3 = 0;
+T4 = 20;
+T5 = 0;
+T6 = 0;
+
+r = 15.5*sind(T4)+15.5*sind(T4+T5)+5.7*sind(T4+T5+T6);
+Z = D1-r*cosd(T3)
+y = -D2-r*sind(T3)
+x = -15.5*cosd(T4)-15.5*cosd(T4+T5)-5.7*cosd(T4+T5+T6)

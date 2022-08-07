@@ -1,0 +1,5 @@
+Para ejecutar el HMI debe abrir el sketch primeroimagencambio.m en la carpeta HIM 
+y ejecuta el programa.
+
+Las animaciones, interpoladores y graficas, se encuentran aparte en la carpeta asignación,
+subdividido en carpetas para su facil comprensión.
